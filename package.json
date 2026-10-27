@@ -1,0 +1,15 @@
+{
+  "name": "retailpulse-ai",
+  "version": "1.0.0",
+  "description": "RetailPulse AI: Smart Inventory & Dynamic Pricing Optimizer",
+  "private": true,
+  "scripts": {
+    "dev": "node dev.js",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build:client": "npm run build --prefix client",
+    "build:server": "npm run build --prefix server",
+    "build": "npm run build:client && npm run build:server",
+    "start": "npm run start --prefix server"
+  }
+}

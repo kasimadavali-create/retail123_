@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production builds
+dist/
+*/dist/
+
+# Environment and secrets
+.env
+*.env
+!.env.example
+*.local
+
+# Logs and databases
+*.log
+npm-debug.log*
+data/
+*/data/
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
